@@ -98,14 +98,27 @@ body::-webkit-scrollbar-thumb:hover{
 .nomeDashboard{
   text-align: center;
   padding: 10px;
-  margin: 5px auto;
+}
+.spanDashboard{
   background-color: #EF7D00;
+  padding: 10px;
+  margin: 5px auto;
   border-radius: 5px;
   width: 310px;
+  margin: 5px 0px;
 }
-.nomeDashboard:hover{
+.spanDashboard:hover{
   background-color: #EA5A33;
   font-weight: bolder;
+}
+.botaoCopiar{
+  color: #EF7D00;
+  padding-left: 3px;
+  margin: absolute;
+  cursor: pointer;
+}
+.botaoCopiar:hover{
+  color: #EA5A33;
 }
 .linkDashboard{
   color: #ffffff;
